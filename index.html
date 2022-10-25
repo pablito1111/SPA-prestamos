@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e15e8c34af.js" crossorigin="anonymous"></script>
+        <title>PrestaMITO</title>
+        <link rel="shortcut icon" href="./imagenes/logo.png" type="image/x-icon">
+       <!-- links de Bootstrap -->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+       crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <!--link animacion-->
+   <link rel="stylesheet" href="./css/estilos.css">
+   
+    <!-- Mi hoja de estilos externa -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <nav>
+                <button class="boton" v-on:click="mostrar('1')">Nosotros</button>
+                <button class="boton" v-on:click="mostrar('2')">Requisitos</button>
+                <button class="boton" v-on:click="mostrar('3')">Solicitud</button>
+                <button class="boton" v-on:click="mostrar('4')">Sucursales</button>
+                <button class="boton" v-on:click="mostrar('5')">Experiencias</button>
+            </nav>
+        </header>
+        <!--aca abajo muestra la vista que esté en TRUE-->
+        <!--preguntar TAGS ???????????????????-->
+         <div v-show="uno_visible"><uno></uno></div>
+         <div v-show="dos_visible"><dos></dos></div>
+         <div v-show="tre_visible"><tre></tre></div>
+         <div v-show="cua_visible"><cua></cua></div>
+         <div v-show="cin_visible"><cin></cin></div>
+        <footer>
+            <piedepagina></piedepagina>
+        </footer>
+    </div>
+
+    <!--CDN de VUE ultima version -->
+    <script src="https://unpkg.com/vue@next"></script>
+
+    <!-- script con los componentes -->
+    <script src="js/componentes.js"></script>
+
+    <!-- script con Vue para mover la Single Page App-->
+    <script src="js/scriptvue.js"></script>
+    
+    <!-- script JS para operaciones -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
