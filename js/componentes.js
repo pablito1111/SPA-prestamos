@@ -4,10 +4,12 @@ const componente1 = {
     `<main>
     <div class="row">
         <div class="col-4 col-s-4 menu">
+            <br><br><br>
             <img src="./imagenes/logo2.png" >
         </div>
         <div class="col-8 col-s-12">
             <div class="texto">
+                <br><br><br><br>
                 <h3>Conocenos</h3>
                 <p>Ponemos a tu alcance la posibilidad de obtener un préstamo en tu cuenta de manera online en
                     simples
@@ -23,6 +25,7 @@ const componente1 = {
                     title="¿QUÉ es un PRÉSTAMO?" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
+                    <br><br><br><br>
             </div>
         </div>
     </div>
@@ -35,11 +38,13 @@ const componente2 = {
     `<main>
     <div class="row">
         <div class="col-3 col-s-4 menu">
+            <br><br><br><br>
             <img src="./imagenes/logo2.png">
         </div>
         <div class="col-9 col-s-12">
             <div class="col-requisitos">
-                <h4>Requisitos</h4>
+            <br><br><br>    
+            <h4>Requisitos</h4>
                 <h5>Para sacar un Préstamo con nosotros tenés que tener más de 18 años y ser:</h5>
                 <ul>
                     <li>Empleado en Relación de Dependencia</li>
@@ -74,12 +79,13 @@ const componente3 = {
     `<main>
     <div class="row">
         <div class="col-3 col-s-4 menu">
+            <br><br><br>
             <img src="./imagenes/logo2.png">
         </div>
         <div class="col-9 col-s-12">
             <div class="containerFormulario">
+                <br><br><br><br>
                 <h3>Formulario de solicitud:</h3>
-                <br>
                     <label for="nombre" class="form-label">Nombre/s</label>
                     <input type="text" class="form-control" name="nombre" id="nombre" aria-describedby="helpId"
                         placeholder="Ingrese su Nombre">
@@ -143,6 +149,7 @@ const componente3 = {
                     <br><br>
             </div>
             <div id="PlaInt"></div>
+            <br><br>
         </div>
     </div>
 </main>
@@ -154,10 +161,12 @@ const componente4 = {
     `<main>
         <div class="row">
             <div class="col-4 col-s-4 menu">
+                <br><br><br>
                 <img src="./imagenes/logo2.png">
             </div>
             <div class="col-8 col-s-12">
                 <div class="texto">
+                    <br><br><br>
                     <h3>Nuestras sucursales</h3>
                 </div>
                 <div class="sucursales">
@@ -189,7 +198,8 @@ const componente4 = {
                             width="100%" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                </div>
+                 </div>
+                <br><br>
             </div>
         </div>
     </main>
@@ -201,6 +211,7 @@ const componente5 = {
     <main>
         <div class="row">
             <div class="col-4 col-s-4 menu">
+            <br><br><br>
                 <img src="./imagenes/logo2.png">
             </div>
             <div class="col-8 col-s-12">

@@ -17,7 +17,7 @@ const miAplicacion = Vue.createApp({
             cin_visible: false
         }
     },
-    mounted() {   /*es lo que se muestra al inicio*/
+    mounted() {/*es lo que se muestra al inicio*/
         this.uno_visible = true
     },
     methods: {
