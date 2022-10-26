@@ -218,6 +218,7 @@ const componente5 = {
                 <div id="tarjetas"></div>
             </div>
         </div>
+        
     </main>
     `
 }

@@ -80,10 +80,10 @@ fetch(url)
                 <p>Edad: ${edad} años</p>
                 <h4>Experiencia: ${x.exp}</h4>
             </div>
-        </div>
+          </div>
     `
         }
-        cad += `</div>
+        cad += `</div><br><br><br>
       `       // le agrego el cierre de la etiqueta div
         
         console.log(cad)
