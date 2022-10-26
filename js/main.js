@@ -64,8 +64,9 @@ fetch(url)
         
         clientes = data.clientes
               
-        let cad = `<div class="container">
-       `//armo la cadena para poner en el HTML manipulado
+        let cad = `<br><br><br><h3 class="texto">Experiencias de nuestros clientes</h3>
+        <div class="container">
+        `//armo la cadena para poner en el HTML manipulado
         var aActual = (new Date()).getFullYear()
         for (x of clientes) {
             edad = aActual - parseInt(x.fechanacimiento.substr(6, 4))

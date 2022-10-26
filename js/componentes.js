@@ -215,6 +215,7 @@ const componente5 = {
                 <img src="./imagenes/logo2.png">
             </div>
             <div class="col-8 col-s-12">
+                
                 <div id="tarjetas"></div>
             </div>
         </div>
